@@ -9,6 +9,6 @@ arrow.forEach(function(elem) {
 
   document.querySelector("button").addEventListener('click',call);
   function call(){
-      window.location.href="";
+      window.location.pathname="Ecommerce_freshly_clone/products/products.html";
   }
 

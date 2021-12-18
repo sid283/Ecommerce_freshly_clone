@@ -11,7 +11,7 @@
     
     // when we click button
     
-    document.querySelector('button').addEventListener('click',store);
+    document.querySelector("#text3").addEventListener('click',store);
     
     var data=JSON.parse(localStorage.getItem("userdata"))||[];
     function store(){
@@ -35,7 +35,6 @@
     
     localStorage.setItem("userdata",JSON.stringify(data)); // set all to localStorage
     alert("successfull Entered");
-    window.location.href="calender.html";
-    
+    window.location.pathname="Ecommerce_freshly_clone/calender/calender.html"
     }
     
