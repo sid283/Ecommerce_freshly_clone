@@ -1,4 +1,5 @@
-document.querySelector("#plan").addEventListener("click", function(){
-    console.log("it works");
-    window.location.pathname = "Ecommerce_freshly_clone/order/order.html";
-})
+document.querySelector("#box").addEventListener("click",gotomenu)
+
+function gotomenu(){
+    window.location.pathname="Ecommerce_freshly_clone/Plans&Menu/Plans&Menu.html"
+}
