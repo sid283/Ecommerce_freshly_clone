@@ -265,5 +265,5 @@ data.map(function(elem) {
 
 });
 document.querySelector("#box2").addEventListener("click", function() {
-    window.location.pathname = "PROJECT/Ecommerce_freshly_clone/register/order.html"
+    window.location.pathname = "Ecommerce_freshly_clone/register/order.html"
 });
