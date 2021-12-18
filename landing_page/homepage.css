@@ -6,10 +6,6 @@
     background-color: #fffdf7;
     position: sticky;
     top: 0px;
-    border: red 1px solid;
-}
-.cont1 > div{
-    border: green 1px solid;
 }
 #first{
     display: block;
