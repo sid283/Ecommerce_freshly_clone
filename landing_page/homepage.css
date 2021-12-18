@@ -7,6 +7,8 @@
     "c1a c1b c1c";
     margin-top:20px;
     background-color: #fffdf7;
+    position: sticky;
+    top: 0px;
 }
 .c1a{
     margin: 2% ;
