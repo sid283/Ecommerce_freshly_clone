@@ -573,6 +573,9 @@ function displayPrice(cartArr){
         button1.textContent="Next"
         button1.className="button1"
         document.querySelector("#subcart").append(button1)
+        button1.addEventListener("click",function(){
+            window.location.pathname="Ecommerce_freshly_clone/checkout/check_out.html"
+        })
      }
 }
 
