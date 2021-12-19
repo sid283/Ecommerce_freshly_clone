@@ -62,7 +62,6 @@ a{
     grid-template-columns: repeat(12, 100px);
     grid-gap: 10px;
     padding: 10px;
-    justify-content: center;
     margin-left: 90px;
     color: #303030;
     grid-template-areas: 
@@ -163,7 +162,7 @@ a{
      padding: 12px 265px;
      margin-left: 10px;
      margin-top: 30px;
-     background-color: #2a6dff;
+     background-color: #1745aa;
      color: white;
      font-size: 18px;
      font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -211,14 +210,14 @@ hr{
 }
 .meal>div{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    justify-content: space-around;
-}
-.additem{
     display: flex;
 }
+
 .img{
     height: 70%;
     margin-top: 20px;
+    padding-right: 2%;
+    padding-left: 5%;
     
 }
 .No{
@@ -227,10 +226,7 @@ hr{
 .cont{
     margin-top: 20px;
 }
-.cont>p{
-    margin-top: -20px;
-    color: gray;
-}
+
 .container{
     width: 90%;
     height: 900px;
@@ -294,4 +290,24 @@ hr{
   #fas{
     color: #303030;
      
+  }
+  @media only screen and (min-width: 375px) and (max-width: 768px) {
+     .main {
+      grid-template-rows: repeat(2, 80px 1000px);
+    grid-template-columns: repeat(12, 100px);
+    }
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 375px) {
+    body {
+      width: 99%;
+      display: flex;
+      flex-direction: column;
+    }
+    #container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
   }

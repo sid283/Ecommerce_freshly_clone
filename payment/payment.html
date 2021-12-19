@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>payment</title>
@@ -28,66 +28,61 @@
        <div class="b"><h2 class="hed">Order Summery</h2></div>
        <div class="c">
            <div class="inpbox">
-               <div><h2>Delivery Address</h2></div>
-               <div class="nam">
-                   <div>
-                       <label><p>First Name</p> </label>
-                       <input type="text">
-                   </div>
-                   <div>
-                    <label><p>Last Name</p></label>
-                    <input type="text">
-                   </div>
-               </div>
-               <div class="nam1">
-                   <label >Full Name for Delivery Address</label>
-                   <br>
-                   <input type="text">
-               </div>
-               <div class="nam1">
-                <label > Address Line 1</label>
-                <br>
-                <input type="text">
-               </div>
-               <div class="nam1">
-                <label > Address Line 2 (Optional)</label>
-                <br>
-                <input type="text">
-               </div>
-               <div class="nam">
-                   <div>
-                    <label ><p>city</p></label>
-                    <input class="cit" type="text">
-                   </div>
-                   <div>
-                    <label ><p>State</p></label>
-                    <input class="sta" type="text">
-                   </div>
-                   <div >
-                    <label class="clink" ><p>Zip  <a href=""><p>Change</p></a></p>
-                </label>
-                    <input class="zip" type="number">
-                   </div>
-               </div>
-               <div class="nam1">
-                <label > Phone</label>
-                <br>
-                <input type="text">
-               </div>
-               <div class="nam">
-                <div class="cbox">
-                    <input type="checkbox" name="" class="cb" >
-                </div>
-                   <div>
-                       <h4>Receive SMS text message updates on my orders</h4>
+            <form id="form">
+                <div><h2>Delivery Address</h2></div>
+                <div class="nam">
+                    <div id="firstname">
+                        <label><p>First Name</p> </label>
                     </div>
-               </div>
-               <div class="nam1">
-                <label >Email (We require your email to send you receipts and order updates)</label>
-                <br>
-                <input type="text">
-               </div>
-               <button class="b1">Next</button>
+                    <div id="lastname">
+                        <label><p>Last Name</p> </label>
+                    </div>
+                </div>
+                <div id="fullnam" class="nam1">
+                    <label><p>FullName Deliver Address</p> </label> </div>
+                <div id="add1" class="nam1">
+                    <label><p>address line 2</p> </label>
+                </div>
+                <div id="add2" class="nam1">
+                    <label><p>address line 2</p> </label>
+                </div>
+                <div class="nam">
+                    <div id="city">
+                        <label><p>city</p> </label>
+                    </div>
+                    <div id="state">
+                        <label><p>state</p> </label> </div>
+                    <div id="zip" >
+                        <label><p>zip</p> </label>
+                    </div>
+                </div>
+                <div id="ph" class="nam1">
+                    <label><p>Phone</p> </label>
+                </div>
+                <div id="email" class="nam1">
+                    <label><p>Email</p> </label>
+                </div>
+                <hr>
+                <div id="payment">
+                    <h2>payment info</h2>
+                    <br>
+                    <div>
+                        <input type="radio" name="" id="">
+                        <label for="">PayPal</label>
+                        <img id="icon" src="https://res.cloudinary.com/freshly/image/upload/q_auto:good,dpr_auto/v1494958610/icon-paypal-sm_oeazjr" alt="">
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="">
+                        <label for="">Credit Card</label>
+                        <img id="icon" src="https://res.cloudinary.com/freshly/image/upload/q_auto:good,dpr_auto/v1494958610/icon-cc-amex_wdkyqy" alt="">
+                        <img id="icon" src="https://res.cloudinary.com/freshly/image/upload/q_auto:good,dpr_auto/v1494958610/icon-cc-discover_dmdrsr" alt="">
+                        <img id="icon" src="https://res.cloudinary.com/freshly/image/upload/q_auto:good,dpr_auto/v1494958610/icon-cc-mastercard_fpfsrz" alt="">
+                        <img id="icon" src="https://res.cloudinary.com/freshly/image/upload/q_auto:good,dpr_auto/v1494958610/icon-cc-visa_gbqvb5" alt="">
+                    </div>
+                    <hr>
+                    <input class="b1" type="submit" value="Pay Pal">
+                </div>
+              </form>
            </div>
        </div>
        <div class="d">
@@ -116,49 +111,9 @@
             </div>
            </div>
            <div class="osbox2">
-               <div><h1>My Meals</h1></div>
-               <div class="meal">
-                   <div class="additem">
-                       <div><h2 class="No">1</h2></div>
-                       <div>
-                           <img class="img" src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1637012267/production-meal-without-background-image-6cadf26d-addc-4674-bfb3-3255cd770ebd.png" alt="">
-                       </div>
-                       <div class="cont">
-                           <h3>Homestyle Chicken</h3>
-                           <p>with Masterful Mac & Cheese</p>
-                       </div>
-                   </div>
-                   <div class="additem">
-                    <div><h2 class="No">1</h2></div>
-                    <div>
-                        <img class="img" src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1637012267/production-meal-without-background-image-6cadf26d-addc-4674-bfb3-3255cd770ebd.png" alt="">
-                    </div>
-                    <div class="cont">
-                        <h3>Homestyle Chicken</h3>
-                        <p>with Masterful Mac & Cheese</p>
-                    </div>
-                   </div>
-                   <div class="additem">
-                    <div><h2 class="No">1</h2></div>
-                    <div>
-                        <img class="img" src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1637012267/production-meal-without-background-image-6cadf26d-addc-4674-bfb3-3255cd770ebd.png" alt="">
-                    </div>
-                    <div class="cont">
-                        <h3>Homestyle Chicken</h3>
-                        <p>with Masterful Mac & Cheese</p>
-                    </div>
-                   </div>
-                   <div class="additem">
-                    <div><h2 class="No">1</h2></div>
-                    <div>
-                        <img class="img" src="https://res.cloudinary.com/freshly/image/upload/c_fill,dpr_2,f_auto,h_90,w_90/v1637012267/production-meal-without-background-image-6cadf26d-addc-4674-bfb3-3255cd770ebd.png" alt="">
-                    </div>
-                    <div class="cont">
-                        <h3>Homestyle Chicken</h3>
-                        <p>with Masterful Mac & Cheese</p>
-                    </div>
-                   </div>
-               </div>
+            <div><h1>My Meals</h1></div>
+            <div class="meal"></div>
+        </div>
            </div>
        </div>
      </div>
@@ -226,6 +181,6 @@
 </div>
 </body> 
 </html>
-<script href="payment.js">
+<script src="payment.js">
     
 </script>
