@@ -590,3 +590,7 @@ function clearItems(){
     document.querySelector("#cartbox").textContent=""
     document.querySelector("#subcart2").textContent=""
 }  
+
+document.querySelector("#back").addEventListener("click",function(){
+    window.location.pathname="Ecommerce_freshly_clone/calender/calender.html"
+})

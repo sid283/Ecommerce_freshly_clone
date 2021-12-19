@@ -204,3 +204,6 @@ a {
     width: 375px;
   }
 }
+#back:hover {
+  cursor: pointer;
+}
