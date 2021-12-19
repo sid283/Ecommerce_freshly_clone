@@ -6,7 +6,7 @@ arrow.forEach(function(btn) {
     });
     
 
-    var add = JSON.parse(localStorage.getItem("checkout"))
+    var add = JSON.parse(localStorage.getItem("checkout"))|| [];
     console.log(add);
      displayadd(add)
     function displayadd(){
@@ -49,9 +49,10 @@ arrow.forEach(function(btn) {
 
     }
 
-    var cart = JSON.parse(localStorage.getItem("cartPage"))
+    var cart = JSON.parse(localStorage.getItem("cartPage"))|| [];
     displaycart(cart);
   function displaycart(){
+    document.querySelector(".meal").textContent="" 
     cart.map(function(elem){
     
     var img = document.createElement("img");
@@ -73,9 +74,10 @@ arrow.forEach(function(btn) {
 
    
     })
-    document.querySelector(".b1").addEventListener("click" , function(){
-      window.location.pathname="http://127.0.0.1:5500/Ecommerce_freshly_clone/final%20page/finalpage.html"
-    })
   }
+  document.querySelector("#form").addEventListener("submit" , function(event){
+    event.preventDefault()
+    window.location.pathname="Ecommerce_freshly_clone/finalpage/finalpage.html"
+  })
 
     
