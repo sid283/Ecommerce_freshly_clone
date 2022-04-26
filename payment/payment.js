@@ -77,7 +77,7 @@ arrow.forEach(function(btn) {
   }
   document.querySelector("#form").addEventListener("submit" , function(event){
     event.preventDefault()
-    window.location.pathname="Ecommerce_freshly_clone/finalpage/finalpage.html"
+    window.location.href="../finalpage/finalpage.html"
   })
 
     

@@ -35,6 +35,6 @@
     
     localStorage.setItem("userdata",JSON.stringify(data)); // set all to localStorage
     alert("successfull Entered");
-    window.location.pathname="Ecommerce_freshly_clone/calender/calender.html"
+    window.location.href="../calender/calender.html"
     }
     

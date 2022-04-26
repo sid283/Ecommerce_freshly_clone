@@ -38,7 +38,7 @@ arrow.forEach(function(btn) {
          arr.push(checkObj);
          console.log(arr)
          localStorage.setItem("checkout" , JSON.stringify(arr));
-         window.location.pathname = "Ecommerce_freshly_clone/payment/payment.html"
+         window.location.href = "../payment/payment.html"
       }
   
 
